@@ -23,6 +23,30 @@ export default function Page() {
       >
         <Image src="/vixsrc.ico" alt="vixsrc logo" width={51} height={55} />
       </Link>
+      <Link
+        href={"https://github.com/paolodelfino/the_silly_empire_barebone"}
+        target="_blank"
+        className="w-full hover:opacity-50"
+      >
+        <Image
+          src="/github-142-svgrepo-com.svg"
+          alt="github logo"
+          width={48}
+          height={48}
+        />
+      </Link>
+      <Link
+        href={"https://t.me/thesillyempirebarebone"}
+        target="_blank"
+        className="w-full hover:opacity-50"
+      >
+        <Image
+          src="/telegram-svgrepo-com.svg"
+          alt="telegram logo"
+          width={48}
+          height={48}
+        />
+      </Link>
     </div>
   );
 }
